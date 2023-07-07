@@ -1,0 +1,19 @@
+.switchButton {
+  padding: 3px;
+  border: 3px solid #30D158;
+  border-radius: 12px;
+  width: 33px;
+  height: 21px;
+  position: relative;
+}
+
+.switchButton::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 5px);
+  left: 3px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #30D158;
+}

@@ -1,0 +1,17 @@
+@import '../../../../variable.global.scss';
+
+.recordControls {
+
+}
+
+.recordControlsList {
+    display: flex;
+    gap: 14px;
+}
+
+.recordControlsItem {
+    padding: 8px 20px;
+    background-color: $active;
+    border-radius: 16px;
+    color: $white;
+}

@@ -1,0 +1,114 @@
+.breadcrumbs {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.14px;
+}
+
+.breadcrumbs .arrow {
+  display: flex;
+}
+
+.breadcrumbs .arrow svg {
+  transform: rotate(180deg) translateY(-2px);
+  opacity: 0.5;
+}
+
+.breadcrumbs .first {
+  opacity: 0.5;
+}
+
+.breadcrumbs .second {
+  color: #496FFF;
+}
+
+.content {
+  display: flex;
+  gap: 24px;
+}
+
+.contentTable {
+  width: calc(670 / 950 * 100%);
+  border-radius: 8px;
+  border: 2px solid #EAEBEE;
+}
+
+.table thead th {
+  border-color: #EAEBEE;
+  font-size: 14px;
+}
+
+.left {
+  text-align: left;
+}
+
+.contentRight {
+  width: calc(240 / 950 * 100%);
+}
+
+.contentRightList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.commonInfo {
+  border-radius: 8px;
+  border: 2px solid #EAEBEE;
+}
+
+.commonInfo .top {
+  padding: 10px 18px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.14px;
+  border-bottom: 2px solid #EAEBEE;
+}
+
+.commonInfo .bottom {
+  padding: 10px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.button {
+  padding: 12px 26px 13px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 2px solid rgba(41, 47, 81, 0.1);
+  width: 100%;
+  font-weight: 600;
+}
+
+.button svg {
+  margin-right: 12px;
+}
+
+.lineWrap {
+  display: inline-block;
+  position: relative;
+  height: 8px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgba(41, 47, 81, 0.1);
+  overflow: hidden;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #496FFF;
+  border-radius: 4px;
+}

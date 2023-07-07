@@ -1,0 +1,46 @@
+@import '../../../../variable.global.scss';
+
+.topbar {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.titleWrap {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.controlsBtn {
+    padding: 12px 26px 13px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 2px solid rgba(41, 47, 81, 0.10);
+    border-radius: 8px;
+    height: 48px;
+    min-width: 150px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    &.addClient {
+        background-color: $green;
+        color: $white;
+        border-color: transparent;
+        &:focus,
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+
+

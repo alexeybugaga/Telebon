@@ -1,0 +1,47 @@
+.ticketButton {
+  padding: 13px 28px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  height: 46px;
+  background-color: #FF453A;
+  transition: all 0.4s ease;
+}
+
+.ticketButton svg {
+  margin-right: 12px;
+}
+
+.ticketButton:focus, .ticketButton:hover {
+  background-color: transparent;
+  border-color: #FF453A;
+  color: #292F51;
+}
+
+.ticketButton:focus .ticketCount, .ticketButton:hover .ticketCount {
+  background-color: #ffffff;
+  border-color: #FF453A;
+}
+
+.ticketText {
+  font-weight: 600;
+}
+
+.ticketCount {
+  position: absolute;
+  right: -14px;
+  top: -9px;
+  background-color: #FF453A;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  height: 18px;
+  min-width: 27px;
+  transition: all 0.3s ease;
+}

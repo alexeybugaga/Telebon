@@ -1,0 +1,8 @@
+.callContent {
+  display: none;
+  flex-direction: column;
+}
+
+.callContent.active {
+  display: flex;
+}

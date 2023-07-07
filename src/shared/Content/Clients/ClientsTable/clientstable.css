@@ -1,0 +1,57 @@
+.clientsTable {
+  width: calc(1150 / 1482 * 100%);
+}
+
+.table {
+  width: 100%;
+}
+
+.thead tr {
+  border-bottom: 2px solid rgba(41, 47, 81, 0.1);
+}
+
+.thead th {
+  width: 25%;
+}
+
+.thead::after {
+  height: 40px;
+  display: table-row;
+  content: '';
+}
+
+.tbody {
+  border-radius: 8px;
+  box-shadow: 0 0 0 2px #EAEBEE;
+}
+
+.tbody tr:nth-child(even) {
+  background-color: rgba(41, 47, 81, 0.05);
+}
+
+.tbody tr {
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.tbody tr:not(:last-child) {
+  border-bottom: none;
+}
+
+.tbody tr td {
+  padding: 10px;
+  font-weight: 600;
+}
+
+.tbody tr td:not(:last-child) {
+  border-right: 2px solid #EAEBEE;
+}
+
+.tbody tr:hover, .tbody tr:focus {
+  background-color: rgba(73, 111, 255, 0.2);
+}
+
+.tbody tr.activeClient {
+  background-color: #496FFF;
+  color: #ffffff;
+}

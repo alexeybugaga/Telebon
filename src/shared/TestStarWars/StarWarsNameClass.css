@@ -1,0 +1,35 @@
+.test {
+  color: red;
+}
+
+.container {
+  padding: 50px 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 1600px;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 16px 32px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #4591f5;
+  border: none;
+  cursor: pointer;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}

@@ -1,0 +1,12 @@
+.clientsContent {
+    display: none;
+    flex-direction: column;
+    &.active {
+        display: flex;
+    }
+}
+
+.clientsContentWrap {
+    display: flex;
+    gap: 24px;
+}

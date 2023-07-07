@@ -1,0 +1,68 @@
+@import '../../../../../variable.global.scss';
+
+
+.eventRibbon {
+    width: calc(1150 / 1482 * 100%);
+    border: 2px solid rgba(41, 47, 81, 0.1);
+    border-radius: 8px;
+    display: none;
+    &.active {
+        display: block;
+    }
+}
+
+.eventRibbon__list {
+
+}
+
+.eventRibbon__item {
+
+}
+.eventRibbon__itemHeading {
+    padding: 20px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.14px;
+    border-bottom: 2px solid #EAEBEE;
+}
+
+.eventRibbon__itemInfo {
+    padding: 20px 40px;
+
+}
+.eventRibbon__itemInfoList {
+
+}
+
+.eventRibbon__itemInfoRecord {
+    display: flex;
+    gap: 12px;
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: $active;
+    }
+    .record {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .recordInfo {
+        display: inline-block;
+        padding: 6px 22px;
+        border-radius: 5px;
+        border: 2px solid rgba(41, 47, 81, 0.10);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .time {
+        font-size: 10px;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+}

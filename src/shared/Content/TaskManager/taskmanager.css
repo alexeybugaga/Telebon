@@ -1,0 +1,8 @@
+.taskManagerContent {
+  display: none;
+  flex-direction: column;
+}
+
+.taskManagerContent.active {
+  display: flex;
+}

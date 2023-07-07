@@ -1,0 +1,14 @@
+@import '../../../../variable.global.scss';
+
+.menuDesktop {
+
+}
+.title {
+    font-weight: 600;
+}
+
+button {
+    &.active {
+        color: $active;
+    }
+}

@@ -1,0 +1,7 @@
+@import '../../../../variable.global.scss';
+
+button {
+    &.active {
+        color: $active;
+    }
+}

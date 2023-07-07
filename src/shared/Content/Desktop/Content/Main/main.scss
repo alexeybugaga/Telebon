@@ -1,0 +1,67 @@
+@import '../../../../../variable.global.scss';
+
+.main {
+    width: calc(1150 / 1482 * 100%);
+    border: 2px solid rgba(41, 47, 81, 0.1);
+    border-radius: 8px;
+    display: none;
+    height: fit-content;
+    &.active {
+        display: block;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        tr:not(:last-child),
+        th {
+            border-bottom: 2px solid #EAEBEE;
+        }
+        th {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.14px;
+            line-height: 100%;
+        }
+        td, 
+        th {
+            padding: 18px;
+        }
+        td:not(:last-child), 
+        th:not(:last-child) {
+            border-right: 2px solid #EAEBEE;
+        }
+        td {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px
+        }
+        .left {
+            padding: 13px 18px;
+            text-align: left;
+        }
+        td.name {
+            button {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+        }
+        .nameIcon {
+            background-color: $active;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+        }
+        th.left {
+            padding: 18px;
+            text-align: left;
+        }
+        .middle {
+            text-align: center;
+        }
+    }
+
+}

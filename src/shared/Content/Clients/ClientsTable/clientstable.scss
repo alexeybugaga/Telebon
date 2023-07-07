@@ -1,0 +1,53 @@
+@import '../../../../variable.global.scss';
+
+.clientsTable {
+    width: calc(1150 / 1482 * 100%);
+}
+
+.table {
+    width: 100%;
+}
+.thead {
+    tr {
+        border-bottom: 2px solid rgba(41, 47, 81, 0.10);
+    }
+    th {
+        width: 25%;
+    }
+    &::after {
+        height: 40px;
+        display: table-row;
+        content: '';
+    }
+}
+.tbody {
+    border-radius: 8px;
+    box-shadow: 0 0 0 2px #EAEBEE;
+    tr:nth-child(even) {
+        background-color: transparentize($main, 0.95);
+    }
+    tr {
+        cursor: pointer;
+        transition: all 0.4s ease;
+        &:not(:last-child) {
+            border-bottom: none;
+        }
+        td {
+            padding: 10px;
+            font-weight: 600;
+        }
+        td:not(:last-child) {
+            border-right: 2px solid #EAEBEE;
+        }
+       
+        &:hover,
+        &:focus {
+            background-color: transparentize($active, 0.8);
+        }
+        &.activeClient {
+            background-color: $active;
+            color: $white;
+        }
+    }
+}
+

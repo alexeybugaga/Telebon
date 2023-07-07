@@ -1,0 +1,74 @@
+.main {
+  width: calc(1150 / 1482 * 100%);
+  border: 2px solid rgba(41, 47, 81, 0.1);
+  border-radius: 8px;
+  display: none;
+  height: fit-content;
+}
+
+.main.active {
+  display: block;
+}
+
+.main table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.main table tr:not(:last-child),
+.main table th {
+  border-bottom: 2px solid #EAEBEE;
+}
+
+.main table th {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.14px;
+  line-height: 100%;
+}
+
+.main table td,
+.main table th {
+  padding: 18px;
+}
+
+.main table td:not(:last-child),
+.main table th:not(:last-child) {
+  border-right: 2px solid #EAEBEE;
+}
+
+.main table td {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.main table .left {
+  padding: 13px 18px;
+  text-align: left;
+}
+
+.main table td.name button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main table .nameIcon {
+  background-color: #496FFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.main table th.left {
+  padding: 18px;
+  text-align: left;
+}
+
+.main table .middle {
+  text-align: center;
+}

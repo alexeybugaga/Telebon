@@ -1,0 +1,24 @@
+@import '../../../../../variable.global.scss';
+
+.runCommandMenu {
+    position: relative;
+
+}
+
+.runCommandMenuList {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: 2px solid transparentize($main, 0.9);
+    border-radius: 8px;
+    button {
+        padding: 5px 10px;
+        border: 2px solid transparentize($main, 0.9);
+        border-radius: 8px;
+    }
+}

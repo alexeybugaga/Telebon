@@ -1,0 +1,123 @@
+.clientInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  width: calc(308 / 1482 * 100%);
+}
+
+.clientInfoHead {
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #496FFF;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.clientInfoContent {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 2px solid #EAEBEE;
+}
+
+.topInfo {
+  padding: 12px 20px;
+  border-bottom: 2px solid #EAEBEE;
+}
+
+.topInfoName {
+  margin-bottom: 5px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.topInfoPhone {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(41, 47, 81, 0.5);
+}
+
+.mainInfo {
+  padding: 20px;
+}
+
+.mainInfoList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mainInfoList li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.14px;
+}
+
+.mainInfoBottom {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button {
+  padding: 12px 26px 13px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 2px solid rgba(41, 47, 81, 0.1);
+  width: 100%;
+  font-weight: 600;
+}
+
+.button svg {
+  margin-right: 12px;
+}
+
+.buttonValue {
+  display: inline-block;
+  margin-left: 5px;
+  color: #496FFF;
+}
+
+.loyalty,
+.documents {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.lineWrap {
+  position: relative;
+  height: 8px;
+  border-radius: 4px;
+  background-color: rgba(41, 47, 81, 0.1);
+  width: 100%;
+  overflow: hidden;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  height: 100%;
+  background-color: #496FFF;
+  border-radius: 4px;
+}

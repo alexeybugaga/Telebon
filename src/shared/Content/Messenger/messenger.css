@@ -1,0 +1,8 @@
+.messengerContent {
+  display: none;
+  flex-direction: column;
+}
+
+.messengerContent.active {
+  display: flex;
+}

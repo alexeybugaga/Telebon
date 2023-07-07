@@ -1,0 +1,11 @@
+.recordControlsList {
+  display: flex;
+  gap: 14px;
+}
+
+.recordControlsItem {
+  padding: 8px 20px;
+  background-color: #496FFF;
+  border-radius: 16px;
+  color: #ffffff;
+}

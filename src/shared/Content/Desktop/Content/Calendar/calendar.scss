@@ -1,0 +1,98 @@
+@import '../../../../../variable.global.scss';
+
+.calendar {
+    border: 2px solid rgba(41, 47, 81, 0.1);
+    border-radius: 8px;
+    width: calc(308 / 1482 * 100%);
+    .top {
+        border-bottom: 2px solid rgba(41, 47, 81, 0.1);
+       
+    }
+    .titlewrap {
+        padding: 18px;
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        border-bottom: 2px solid rgba(41, 47, 81, 0.1);;
+    }
+    .month {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+    }
+    .btnwrap {
+        display: flex;
+        gap: 12px;
+    }
+    button {
+        display: flex;
+        align-items: center;
+    }
+    .next {
+        svg {
+            transform: rotate(180deg);
+        }
+    }
+    .days {
+        padding: 20px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(7, 24px);
+        gap: 16px;
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .bottom {
+        .titlewrap {
+            border: none;
+            margin-bottom: 24px;
+            svg {
+                transform: rotate(180deg);
+            }
+        }
+        .titledata {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.01em;
+        }
+        .linedata {
+            display: inline-block;
+            position: relative;
+            height: 8px;
+            width: 100%;
+            border-radius: 4px;
+            background-color: transparentize($color: $main, $amount: 0.9);
+            &.part {
+                &::after {
+                    width: 70%;
+                } 
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                border-radius: 4px;
+                background-color: $active;
+            }
+        }
+        .data {
+            padding: 0 18px 20px 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            li {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}

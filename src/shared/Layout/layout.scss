@@ -1,0 +1,5 @@
+.layout {
+    display: grid;
+    grid-template-columns: calc(340 / 1920 * 100%) calc(1580 / 1920 * 100%);
+    margin: 0 auto;
+}

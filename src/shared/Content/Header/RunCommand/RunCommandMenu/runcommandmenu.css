@@ -1,0 +1,22 @@
+.runCommandMenu {
+  position: relative;
+}
+
+.runCommandMenuList {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border: 2px solid rgba(41, 47, 81, 0.1);
+  border-radius: 8px;
+}
+
+.runCommandMenuList button {
+  padding: 5px 10px;
+  border: 2px solid rgba(41, 47, 81, 0.1);
+  border-radius: 8px;
+}

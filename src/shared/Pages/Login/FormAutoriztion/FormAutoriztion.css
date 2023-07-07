@@ -1,0 +1,105 @@
+.formautorization {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 480px;
+}
+
+input {
+  padding: 18px 40px 18px 22px;
+  border: 2px solid rgba(41, 47, 81, 0.5);
+  border-radius: 8px;
+  height: 60px;
+  width: 100%;
+  font-weight: 600;
+  color: rgba(41, 47, 81, 0.5);
+}
+
+input:focus, input:focus-visible, input:hover, input:active {
+  border-color: #496FFF;
+}
+
+input:focus + label, input:focus-visible + label, input:hover + label, input:active + label {
+  opacity: 1;
+}
+
+input:focus ~ span, input:focus-visible ~ span, input:hover ~ span, input:active ~ span {
+  color: #496FFF;
+}
+
+input::placeholder {
+  font-weight: 600;
+}
+
+.inputwrapper {
+  position: relative;
+  width: 100%;
+}
+
+.inputwrapper label {
+  position: absolute;
+  top: -10px;
+  left: 16px;
+  display: inline-block;
+  padding: 0 8px;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #496FFF;
+  opacity: 0;
+}
+
+.inputIcon {
+  position: absolute;
+  display: flex;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+}
+
+.bottomwrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+
+.bottomwrapperlabel {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.inputcheckbox {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(41, 47, 81, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forgotpasslink {
+  color: #496FFF;
+  font-weight: 600;
+}
+
+button.autorizationBtn {
+  padding: 16px 32px;
+  background-color: #496FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: 600;
+  height: 56px;
+  border: 2px solid #496FFF;
+  color: #ffffff;
+}
+
+.registrationBtn {
+  gap: 10px;
+}
+
+.registrationText {
+  color: #496FFF;
+}

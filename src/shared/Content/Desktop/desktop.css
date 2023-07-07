@@ -1,0 +1,8 @@
+.desktopContent {
+  display: none;
+  flex-direction: column;
+}
+
+.desktopContent.active {
+  display: flex;
+}

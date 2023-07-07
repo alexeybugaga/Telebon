@@ -1,0 +1,38 @@
+.addClient {
+  color: #292F51;
+}
+
+h3 {
+  margin-bottom: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.breadcrumbs {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.14px;
+}
+
+.breadcrumbs .arrow {
+  display: flex;
+}
+
+.breadcrumbs .arrow svg {
+  transform: rotate(180deg) translateY(-2px);
+  opacity: 0.5;
+}
+
+.breadcrumbs .first {
+  opacity: 0.5;
+}
+
+.breadcrumbs .second {
+  color: #496FFF;
+}

@@ -1,0 +1,19 @@
+.runCommandWrap {
+  width: 26.4%;
+}
+
+.runCommand {
+  padding: 10px 19px 12px 19px;
+  display: flex;
+  align-items: center;
+  height: 46px;
+  min-width: 250px;
+  font-weight: 600;
+  border: 2px solid rgba(41, 47, 81, 0.1);
+  border-radius: 8px;
+}
+
+.runCommand svg {
+  margin-right: 12px;
+  transform: translateY(1px);
+}
