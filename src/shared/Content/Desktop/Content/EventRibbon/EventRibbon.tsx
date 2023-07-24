@@ -1,12 +1,10 @@
 import classNames from 'classnames';
 import React from 'react';
-import { slowTestThreshold } from '../../../../../../jest.config';
 import { UserIcon } from '../../../../icons';
 import styles from './eventribbon.scss';
 
 interface IEventRibbonProps {
   toggle: number;
-
 }
 
 export function EventRibbon({ toggle }: IEventRibbonProps) {

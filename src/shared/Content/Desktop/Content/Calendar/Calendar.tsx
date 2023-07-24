@@ -24,13 +24,13 @@ export function Calendar() {
         </div>
         <div className={styles.days}>
           <ul className={styles.grid}>
-            <li>Пн</li>
-            <li>Вт</li>
-            <li>Ср</li>
-            <li>Чт</li>
-            <li>Пт</li>
-            <li>Сб</li>
-            <li>Вс</li>
+            <li className={styles.weekday}>Пн</li>
+            <li className={styles.weekday}>Вт</li>
+            <li className={styles.weekday}>Ср</li>
+            <li className={styles.weekday}>Чт</li>
+            <li className={styles.weekday}>Пт</li>
+            <li className={styles.weekday}>Сб</li>
+            <li className={styles.weekday}>Вс</li>
             <li>1</li>
             <li>2</li>
             <li>3</li>
@@ -76,7 +76,7 @@ export function Calendar() {
         </div>
         <ul className={styles.data}>
           <li>
-            <span>
+            <span className={styles.title}>
               Кол-во попыток
             </span>
             <span className={styles.linedata}>
@@ -87,7 +87,7 @@ export function Calendar() {
             </span>
           </li>
           <li>
-            <span>
+            <span className={styles.title}>
               Запись
             </span>
             <span className={`${styles.linedata} ${styles.part}`}>
@@ -98,7 +98,7 @@ export function Calendar() {
             </span>
           </li>
           <li>
-            <span>
+            <span className={styles.title}>
               Конверсия
             </span>
             <span className={styles.linedata}>

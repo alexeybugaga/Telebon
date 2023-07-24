@@ -8,7 +8,6 @@ import styles from './menu.scss';
 
 
 export function Menu() {
-  // const { menuNum, changeMenuNum } = useContext(menuStateContext);
 
   return (
   <div className={styles.menu}>

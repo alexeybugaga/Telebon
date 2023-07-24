@@ -51,14 +51,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 14px;
+  min-height: 24px;
+}
+
+.calendar .grid .weekday {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  min-height: 20px;
 }
 
 .calendar .bottom .titlewrap {
   border: none;
-  margin-bottom: 24px;
+  margin-bottom: 6px;
 }
 
 .calendar .bottom .titlewrap svg {
+  color: rgba(41, 47, 81, 0.5);
   transform: rotate(180deg);
 }
 
@@ -93,14 +104,30 @@
   background-color: #496FFF;
 }
 
+.calendar .bottom .title {
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.calendar .bottom .label {
+  font-size: 10px;
+  line-height: normal;
+  opacity: 0.5;
+}
+
 .calendar .bottom .data {
   padding: 0 18px 20px 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 .calendar .bottom .data li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   width: 100%;
   text-align: center;
 }

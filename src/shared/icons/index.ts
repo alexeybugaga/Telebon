@@ -17,6 +17,8 @@ export * from './HistoryIcon';
 export * from './CommonDataIcon';
 export * from './DocumentsIcon';
 export * from './PlanningIcon';
+export * from './CallIcon';
+
 
 
 

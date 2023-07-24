@@ -12,6 +12,7 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 20px;
+    font-weight: 500;
     color: $main;
     font-family: 'Gilroy', sans-serif;
 }
@@ -42,6 +43,7 @@ button {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+    font-weight: inherit;
     &:focus {
         outline: none;
     }

@@ -1,0 +1,27 @@
+@import '../../../../variable.global.scss';
+
+.dialogContent {
+    width: calc(949 / 1572 * 100%);
+    border-radius: 8px;
+    border: 2px solid #EAEBEE;
+}
+
+.dialogContentTop {
+    padding: 10px 38px;
+}
+
+.dialogTopList {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    li {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        color: transparentize($main, 0.5);
+        font-weight: 600;
+        svg {
+            transform: rotate(180deg);
+        }
+    }
+}

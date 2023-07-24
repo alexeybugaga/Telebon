@@ -69,7 +69,8 @@ table {
   border-collapse: collapse;
 }
 
-tr:not(:last-child) {
+tr:not(:last-child),
+thead {
   border-bottom: 2px solid #EAEBEE;
 }
 

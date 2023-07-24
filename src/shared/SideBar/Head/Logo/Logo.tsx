@@ -1,9 +1,14 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { setMenuNum } from '../../../../store/reducer';
 import styles from './logo.scss';
 
 export function Logo() {
+
+  const dispatch = useDispatch();
+  
   return (
-    <div className={styles.logo}>
+    <div className={styles.logo} onClick={() => dispatch(setMenuNum(1))}>
       <svg width="109" height="18" viewBox="0 0 109 18" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12.7335 0.346154V3.60989H8.06044V17.6538H4.64835V3.60989H0V0.346154H12.7335Z" fill="#292F51"/>
         <path d="M19.2867 14.3901H26.5806V17.6538H15.8746V0.346154H26.457V3.60989H19.2867V7.29396H25.8389V10.5082H19.2867V14.3901Z" fill="#292F51"/>

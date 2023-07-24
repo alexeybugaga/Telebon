@@ -1,6 +1,7 @@
 .clientsContent {
   display: none;
   flex-direction: column;
+  height: 100%;
 }
 
 .clientsContent.active {
@@ -10,4 +11,5 @@
 .clientsContentWrap {
   display: flex;
   gap: 24px;
+  height: 100%;
 }

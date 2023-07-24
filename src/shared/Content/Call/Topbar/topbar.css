@@ -1,0 +1,51 @@
+.topbar {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.titleWrap {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.titleWrap svg {
+  width: 34px;
+  height: 34px;
+}
+
+.controls {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.controlsBtn {
+  padding: 12px 26px 13px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 2px solid rgba(41, 47, 81, 0.1);
+  border-radius: 8px;
+  height: 48px;
+  min-width: 150px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+
+.controlsBtn.runList {
+  background-color: #30D158;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.controlsBtn.runList:focus, .controlsBtn.runList:hover {
+  opacity: 0.5;
+}

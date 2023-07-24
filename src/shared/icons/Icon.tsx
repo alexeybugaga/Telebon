@@ -1,6 +1,7 @@
 import React from "react";
 import { AddPlusIcon } from "./AddPlusIcon";
 import { ArrowIcon } from "./ArrowIcon";
+import { CallIcon } from "./CallIcon";
 import { ClientsIcon } from "./ClientsIcon";
 import { CloseIcon } from "./CloseIcon";
 import { CommonDataIcon } from "./CommonDataIcon";
@@ -36,7 +37,8 @@ export enum EIcons {
     history,
     commondata,
     documents,
-    planning
+    planning,
+    call
 } 
 
 
@@ -57,7 +59,7 @@ const ICONS: Record<EIcons, any> = {
     [EIcons.commondata]: CommonDataIcon,
     [EIcons.documents]: DocumentsIcon,
     [EIcons.planning]: PlanningIcon,
-
+    [EIcons.call]: CallIcon,
 }
 
 
