@@ -1,5 +1,7 @@
 import classNames from 'classnames';
 import React, { useContext, useState } from 'react';
+import { useSelector } from 'react-redux';
+import { RooState } from '../../../store/reducer';
 import { menuStateContext } from '../../context/menuStateContext';
 import { ClientInfo } from './ClientInfo';
 import styles from './clients.scss';
@@ -8,7 +10,7 @@ import { TopBar } from './TopBar';
 
 export function Clients() {
   const [ActiveClient, setActiveClient] = useState('');
-  const {menuNum, changeMenuNum} = useContext(menuStateContext);
+  const menuNum = useSelector<RooState, number>(state => state.menuNum);
 
   const handleClick = (active: string) => {
     setActiveClient(active);

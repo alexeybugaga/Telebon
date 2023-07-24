@@ -1,0 +1,27 @@
+.dialogContent {
+  width: calc(949 / 1572 * 100%);
+  border-radius: 8px;
+  border: 2px solid #EAEBEE;
+}
+
+.dialogContentTop {
+  padding: 10px 38px;
+}
+
+.dialogTopList {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dialogTopList li {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: rgba(41, 47, 81, 0.5);
+  font-weight: 600;
+}
+
+.dialogTopList li svg {
+  transform: rotate(180deg);
+}

@@ -1,3 +1,9 @@
+.contentWrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .tabs {
   margin-bottom: 40px;
 }
@@ -55,4 +61,5 @@
 .content {
   display: flex;
   gap: 24px;
+  height: 100%;
 }

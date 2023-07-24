@@ -25,15 +25,19 @@
 
 .infoButtonText {
     .count {
+        padding: 2px 4px 3px 4px;
         position: absolute;
         top: -9px;
         right: -13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-radius: 24px;
         border: 2px solid #FFF;
         background-color: $active;
-        min-width: 27px;
+        min-width: 32px;
         color: $white;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 600;
         line-height: 14px;
         text-align: center;
