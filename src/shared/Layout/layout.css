@@ -4,3 +4,9 @@
   margin: 0 auto;
   min-height: 100vh;
 }
+
+@media screen and (max-width: 1500px) {
+  .layout {
+    grid-template-columns: calc(380 / 1920 * 100%) calc(1540 / 1920 * 100%);
+  }
+}
