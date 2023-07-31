@@ -2,7 +2,6 @@ import classNames from 'classnames';
 import React, { useContext, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { RooState } from '../../../store/reducer';
-import { menuStateContext } from '../../context/menuStateContext';
 import { ClientInfo } from './ClientInfo';
 import styles from './clients.scss';
 import { ClientsTable, CLIENTS_LIST } from './ClientsTable';

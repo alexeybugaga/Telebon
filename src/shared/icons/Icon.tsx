@@ -1,6 +1,8 @@
 import React from "react";
 import { AddPlusIcon } from "./AddPlusIcon";
 import { ArrowIcon } from "./ArrowIcon";
+import { ArrowNextIcon } from "./ArrowNextIcon";
+import { ArrowPrevIcon } from "./ArrowPrevIcon";
 import { CallIcon } from "./CallIcon";
 import { ClientsIcon } from "./ClientsIcon";
 import { CloseIcon } from "./CloseIcon";
@@ -33,6 +35,8 @@ export enum EIcons {
     processing,
     addplus,
     arrow,
+    arrownext,
+    arrowprev,
     savemove,
     history,
     commondata,
@@ -54,6 +58,8 @@ const ICONS: Record<EIcons, any> = {
     [EIcons.processing]: ProccessingIcon,
     [EIcons.addplus]: AddPlusIcon,
     [EIcons.arrow]: ArrowIcon,
+    [EIcons.arrownext]: ArrowNextIcon,
+    [EIcons.arrowprev]: ArrowPrevIcon,
     [EIcons.savemove]: SaveMoveIcon,
     [EIcons.history]: HistoryIcon,
     [EIcons.commondata]: CommonDataIcon,

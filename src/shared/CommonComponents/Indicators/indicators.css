@@ -1,0 +1,73 @@
+.indicators {
+  padding: 20px 20px 27px 20px;
+}
+
+.indicators .titlewrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  margin-bottom: 24px;
+}
+
+.indicators .titlewrap svg {
+  color: rgba(41, 47, 81, 0.5);
+}
+
+.indicators .titledata {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.14px;
+}
+
+.indicators .linedata {
+  display: inline-block;
+  position: relative;
+  height: 8px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgba(41, 47, 81, 0.1);
+}
+
+.indicators .linedata.part::after {
+  width: 70%;
+}
+
+.indicators .linedata::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #496FFF;
+}
+
+.indicators .title {
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.indicators .label {
+  font-size: 10px;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.indicators .data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.indicators .data li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  text-align: center;
+}

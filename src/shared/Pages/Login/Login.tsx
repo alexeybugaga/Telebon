@@ -9,7 +9,6 @@ export function Login() {
   const [isLogin, setLogin] = useState<string>('autorization');
   const handleClick = (state: string) => {
     setLogin(state);
-    console.log(isLogin);
   }
   return (
       <div className={styles.loginwrapper}>
