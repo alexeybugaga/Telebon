@@ -6,7 +6,6 @@ import { hot } from "react-hot-loader/root";
 import React from "react";
 import { Home } from "./shared/Pages/Home";
 
-import { menuStateContext } from "./shared/context/menuStateContext";
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { applyMiddleware, createStore } from "redux";
 import { rootReducer } from "./store/reducer";

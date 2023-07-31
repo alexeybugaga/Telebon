@@ -1,9 +1,10 @@
 import classNames from 'classnames';
 import React, { useState } from 'react';
-import { Calendar } from './Calendar';
+import { Calendar } from '../../../CommonComponents/Calendar';
 import styles from './content.scss';
 import { EventRibbon } from './EventRibbon';
 import { Main } from './Main';
+import { SideBlock } from './SideBlock';
 
 export function Content() {
 
@@ -30,7 +31,7 @@ export function Content() {
       <div className={styles.content}>
         <Main toggle={toggleState}/>
         <EventRibbon toggle={toggleState}/>
-        <Calendar />
+        <SideBlock />
       </div>
     </div>
   );

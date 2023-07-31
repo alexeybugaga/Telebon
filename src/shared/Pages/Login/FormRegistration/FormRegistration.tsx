@@ -13,7 +13,7 @@ export function FormRegistration( { onClick = (login) => {}, login}: IFormRegist
   return (
     <div>
     <Formik
-      initialValues={{ email: '', password: '' }}
+      initialValues={{ username: '', email: '', password: '', passwordconfirm: '' }}
       validate={values => {
         const errors: any = {};
         if (!values.email) {
@@ -51,20 +51,20 @@ export function FormRegistration( { onClick = (login) => {}, login}: IFormRegist
             <ErrorMessage name="email" component="div" />
           </div>
           <div className={styles.inputwrapper}>
-            <Field type="password" name="password-1" placeholder="Пароль" />
-            <label htmlFor="password-1">Пароль</label>
+            <Field type="password" name="password" placeholder="Пароль" />
+            <label htmlFor="password">Пароль</label>
             <span className={styles.inputIcon}>
               <PasswordIcon />
             </span>
-            <ErrorMessage name="password-1" component="div" />
+            <ErrorMessage name="password" component="div" />
           </div>
           <div className={styles.inputwrapper}>
-            <Field type="password" name="password-2" placeholder="Подтверждение пароля" />
-            <label htmlFor="password-2">Подтверждение пароля</label>
+            <Field type="password" name="passwordconfirm" placeholder="Подтверждение пароля" />
+            <label htmlFor="passwordconfirm">Подтверждение пароля</label>
             <span className={styles.inputIcon}>
               <PasswordIcon />
             </span>
-            <ErrorMessage name="password-2" component="div" />
+            <ErrorMessage name="passwordconfirm" component="div" />
           </div>
           <div className={styles.bottomwrapper}>
             <label className={styles.bottomwrapperlabel}>

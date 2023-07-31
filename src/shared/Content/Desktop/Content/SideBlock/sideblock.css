@@ -1,0 +1,5 @@
+.sideblock {
+  border: 2px solid rgba(41, 47, 81, 0.1);
+  border-radius: 8px;
+  width: calc(308 / 1482 * 100%);
+}

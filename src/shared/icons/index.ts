@@ -12,6 +12,8 @@ export * from './ClientsIcon';
 export * from './ProccessingIcon';
 export * from './AddPlusIcon';
 export * from './ArrowIcon';
+export * from './ArrowNextIcon';
+export * from './ArrowPrevIcon';
 export * from './SaveMoveIcon';
 export * from './HistoryIcon';
 export * from './CommonDataIcon';
