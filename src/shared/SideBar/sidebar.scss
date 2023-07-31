@@ -4,3 +4,9 @@
     padding: 42px 43px 82px 58px;
     background-color: $greyF9;
 }
+
+@media screen and (max-width: 1500px) {
+    .sidebar {
+        padding: 42px 32px 52px 32px;
+    }
+}
